@@ -1,0 +1,19 @@
+{
+    "name": "jest-practice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "set NODE_ENV=test && jest --forceExit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.4.5",
+        "supertest": "^6.1.6"
+    },
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
